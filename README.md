@@ -6,6 +6,8 @@ from Minecraft.Resources import Resources
 from Minecraft.Client import Client
 import uuid
 
+# original client_url for all versions: https://launchermeta.mojang.com/mc/game/version_manifest.json
+
 client = Client(
     resources=Resources(
         settings={
